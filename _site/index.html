@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="In SP2, we research how security and privacy affect people, and how people affect security and privacy. We use methods and tools from computer science and social science to investigate how and why people make security- and privacy-relevant decisions, and to give people tools to make better decisions."
+    />
+    <meta name="author" content="" />
+    <link rel="canonical" href="sp2.umiacs.io/" />
+
+    <title>SP2: Security, Privacy, People</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/paperCard.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom fonts for this template -->
+    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Custom styles for this theme -->
+    <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
+    <link href="assets/css/agency.css" rel="stylesheet" />
+    <script src="assets/js/publications.js"></script>
+    <script src="assets/js/index.js"></script>
+    <!-- Page container change top padding when nav shrinks -->
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          ><img height="100" src="assets/img/SP2_white.jpg"
+        /></a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio"
+                >Research</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">People</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in"><p>University of Maryland SP2 Lab</p></div>
+          <div class="intro-heading text-uppercase">
+            <p>Security. Privacy. People.</p>
+          </div>
+          <div class="intro-overview text-dark">
+            <p>
+              <br />In SP2, we research how security and privacy affect people,
+              and how people affect security and privacy. We use methods and
+              tools from computer science and social science to investigate how
+              and why people make security- and privacy-relevant decisions, and
+              to give people tools to make better decisions.<br />We are
+              affiliated with the
+              <a href="http://cyber.umd.edu/">Maryland Cybersecurity Center</a>
+              and the
+              <a href="https://hcil.umd.edu/">Human-Computer Interaction Lab</a
+              >.
+            </p>
+          </div>
+          <a
+            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+            href="#portfolio"
+            >Our research</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light page-section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <a
+              data-toggle="modal"
+              href="#all"
+              onclick="{loadPublication('all')}"
+              style="color: black"
+            >
+              <h2 class="section-heading text-uppercase"><p>Research</p></h2>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Security Behaviors')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/behavior-thumb.jpg"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p1"
+            >
+              <div class="portfolio-caption">
+                <h4>Security Behaviors</h4>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Secure Development')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/crypto-thumb.png"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p2"
+            >
+              <div class="portfolio-caption">
+                <h4>Secure Development</h4>
+                <p class="text-muted"></p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Security for At-Risk Users')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/at-risk-thumb.png"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p3"
+            >
+              <div class="portfolio-caption">
+                <h4>Security for At-Risk Users</h4>
+                <p class="text-muted"></p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Security Professionals')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/secpros-thumb.jpeg"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p4"
+            >
+              <div class="portfolio-caption">
+                <h4>Security Professionals</h4>
+                <p class="text-muted"></p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Secure Communications')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/e2ee-thumb.jpg"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p5"
+            >
+              <div class="portfolio-caption">
+                <h4>Secure Communications</h4>
+                <p class="text-muted"></p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Tracking Transparency')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/trtr-thumb.png"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p6"
+            >
+              <div class="portfolio-caption">
+                <h4>Tracking Transparency</h4>
+                <p class="text-muted"></p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Research Methods')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p7">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/sample-thumb.png"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p7"
+            >
+              <div class="portfolio-caption">
+                <h4>Research Methods</h4>
+                <p class="text-muted"></p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="col-lg-3 col-sm-6 portfolio-item"
+            onclick="{loadPublication('Other Projects')}"
+          >
+            <a class="portfolio-link" data-toggle="modal" href="#p8">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/fair-hiring-thumb.png"
+                alt=""
+              />
+            </a>
+            <a
+              class="portfolio-link text-decoration-none"
+              data-toggle="modal"
+              href="#p8"
+            >
+              <div class="portfolio-caption">
+                <h4>Other<br />Projects</h4>
+                <p class="text-muted"></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Modals -->
+    <div
+      class="portfolio-modal modal fade"
+      id="all"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                    <h2 class="text-uppercase d-none d-md-block">All Selected Publications</h2>
+                    <h2 class="text-uppercase d-block d-md-none" style="font-size: 1.5rem;">All Selected Publications</h2>
+                  <p class="item-intro text-muted">
+                    Here is a collection of our selected publications
+                    spanning security behaviors, privacy concerns, user
+                    attitudes, and secure development practices, with insights
+                    into both technical and human-centered approaches to
+                    security and privacy.
+                  </p>
+                  <!-- Search Bar -->
+                  <input
+                    type="text"
+                    id="search-bar"
+                    class="form-control mb-3"
+                    placeholder="Search publications by title..."
+                    oninput="filterPublications()"
+                  />
+
+                  <h4 id="selected-publications">All Publications</h4>
+                  <div id="all-publications"></div>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p1"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">
+                    Learning and Adopting Security Behaviors
+                  </h2>
+                  <p class="item-intro text-muted">
+                    Exploring where and how people learn security behavior and
+                    decide which to adopt, and investigating how to improve
+                    security advice and communications.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/behavior.jpg"
+                    alt="Bar chart illustrating the actionability of security advice found on the web, across a variety of topics."
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="security-behaviors"></div>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p2"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">
+                    Human Aspects of Secure Software Development
+                  </h2>
+                  <p class="item-intro text-muted">
+                    Understanding how and why developers introduce security
+                    problems.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/crypto.png"
+                    alt="Bar chart illustrating how likely participants using different cryptographic libraries were to develop secure solutions."
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="secure-development"></div>
+
+                  <h4 id="for-more-information">For More Information</h4>
+                  <p>
+                    Or to join our participant panel, visit the
+                    <a href="https://sec-professionals.cs.umd.edu/"
+                      >Security Professionals</a
+                    >
+                    page.
+                  </p>
+
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">
+                    Security and Privacy for At-Risk Users
+                  </h2>
+                  <p class="item-intro text-muted">
+                    Exploring the security and privacy needs of at-risk,
+                    vulnerable, and marginalized users.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/at-risk-framework.png"
+                    alt="Bar chart illustrating the actionability of security advice found on the web, across a variety of topics."
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="security-for-at-risk-users"></div>
+
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Security Professionals</h2>
+                  <p class="item-intro text-muted">
+                    Exploring how security professionals do their work,
+                    measuring best practices, and developing better tools and
+                    processes.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/hackerstesters.jpeg"
+                    alt="Flowchart illustrating the vulnerability discovery process"
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="security-professionals"></div>
+
+                  <h4 id="for-more-information">For More Information</h4>
+                  <p>
+                    Or to join our participant panel, visit the
+                    <a href="https://sec-professionals.cs.umd.edu/"
+                      >Security Professionals</a
+                    >
+                    page.
+                  </p>
+
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">
+                    Adoption and Understanding of Secure Communications
+                  </h2>
+                  <p class="item-intro text-muted">
+                    Exploring mental models of secure communication and
+                    developing strategies to promote their adoption and
+                    effective use.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/e2ee.jpg"
+                    alt="Diagram illustrating end-to-end encryption"
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="secure-communications"></div>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p6"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">
+                    Transparency in Online Tracking and Inferencing
+                  </h2>
+                  <p class="item-intro text-muted">
+                    Making tracking and inferencing more visible; exploring user
+                    reactions and preferences.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/trtr.png"
+                    alt="Screenshot of our Tracking Transparency browser extension demonstrating possible inferences from web tracking."
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="tracking-transparency"></div>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p7"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">
+                    Research Methods in Human-Centered Security
+                  </h2>
+                  <p class="item-intro text-muted">
+                    Comparing and characterizing methods for sampling and data
+                    collection, documenting best practices, and building
+                    research tools.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/sample.png"
+                    alt="Bar chart comparing responses to security-related questions among Mechanical Turk respondents, web panel respondents, and a probabilistic population sample."
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="research-methods"></div>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal fade"
+      id="p8"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Other fun projects</h2>
+                  <p class="item-intro text-muted">
+                    Assorted whatchamacallits and thingamajigs.
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/fair-hiring.png"
+                    alt="Illustration of algorithmic decision making in hiring."
+                  />
+                  <p></p>
+                  <h4 id="selected-publications">Selected Publications</h4>
+                  <div id="other-projects"></div>
+                  <button
+                    class="btn btn-primary"
+                    data-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-times"></i>
+                    Back
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Portfolio Modals -->
+
+    <!-- Team -->
+    <section class="bg-light page-section" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">People</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4>Nick Farber</h4>
+              <p class="text-muted">Undergraduate Researcher</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/wentao-headshot.jpg"
+                alt=""
+              />
+              <h4><a href="https://wentaoguo.com/">Wentao Guo</a></h4>
+              <p class="text-muted">PhD Student</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/aditya-headshot.png"
+                alt=""
+              />
+              <h4>Aditya Kishore</h4>
+              <p class="text-muted">Undergraduate Researcher</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4>
+                <a href="https://www.cs.umd.edu/people/alanfluo"> Alan Luo</a>
+              </h4>
+              <p class="text-muted">PhD Student</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/mazurek4.jpeg"
+                alt=""
+              />
+              <h4><a href="https://mmazurek.umiacs.io">Michelle Mazurek</a></h4>
+              <p class="text-muted">Associate Professor</p>
+              <p class="text-muted">SP2 Director</p>
+              <!--	    <p class="text-muted">SP2 Director</p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/phoebe-headshot.jpeg"
+                alt=""
+              />
+              <h4>
+                <a href="https://pmoh-bees.github.io/website/">Phoebe Moh</a>
+              </h4>
+              <p class="text-muted">PhD Student</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4>
+                <a href="https://juliopovedacs.github.io/">Julio Poveda</a>
+              </h4>
+
+              <p class="text-muted">PhD Student</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/nathan-headshot.jpg"
+                alt=""
+              />
+              <h4>
+                <a href="https://nathanreitinger.umiacs.io/"
+                  >Nathan Reitinger</a
+                >
+              </h4>
+              <p class="text-muted">PhD Student</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4>
+                <a href="https://www.cs.umd.edu/people/eshroyer"
+                  >Emma Shroyer</a
+                >
+              </h4>
+              <p class="text-muted">PhD Student</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4><a href="https://www.yunzezhao.com/">Yunze Zhao</a></h4>
+              <p class="text-muted">PhD Student</p>
+              <p class="text-muted"></p>
+              <!--	    <p class="text-muted"></p> -->
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Team -->
+    <!-- external -->
+    <section class="bg-light page-section" id="external">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">
+              Alumni and Collaborators
+            </h2>
+            <h3 class="section-subheading text-muted"></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/desiree-headshot.jpg"
+                alt=""
+              />
+              <h4>Desiree Abrokwa</h4>
+              <p class="text-muted">Undergrad Alum</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/yas-headshot.jpg"
+                alt=""
+              />
+              <h4>Yasemin Acar</h4>
+              <p class="text-muted">Paderborn University</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4><a href="https://www.cs.cmu.edu/~oakgul/">Omer Akgul</a></h4>
+              <p class="text-muted">PhD Alum</p>
+              <p class="text-muted">Carnegie Mellon University</p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/adam-headshot.jpg"
+                alt=""
+              />
+              <h4><a href="https://adamaviv.com/">Adam Aviv</a></h4>
+              <p class="text-muted">George Washington University</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/wei-headshot.jpg"
+                alt=""
+              />
+              <h4><a href="http://www.umiacs.umd.edu/~wbai">Wei Bai</a></h4>
+              <p class="text-muted">PhD Alum</p>
+              <p class="text-muted">Google</p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle"
+              src="assets/img/team/bates-headshot.png"" alt="">
+              <h4><a href="https://adambates.org">Adam Bates</a></h4>
+              <p class="text-muted">U. of Illinois at Urbana-Champaign</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/anna-headshot.jpg"
+                alt=""
+              />
+              <h4>Anna Chan</h4>
+              <p class="text-muted">Undergrad Alum</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/marshini.jpg"
+                alt=""
+              />
+              <h4><a href="https://www.marshini.net/">Marshini Chetty</a></h4>
+              <p class="text-muted">University of Chicago</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/shruti-headshot.png"
+                alt=""
+              />
+              <h4>Shruti Das</h4>
+              <p class="text-muted">Undergrad Alum</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/diana-headshot.jpeg"
+                alt=""
+              />
+              <h4><a href="https://dfreed.me">Diana Freed</a></h4>
+              <p class="text-muted">Harvard University</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/fulton-headshot.jpg"
+                alt=""
+              />
+              <h4><a href="https://kfulton121.github.io/">Kelsey Fulton</a></h4>
+              <p class="text-muted">PhD Alum</p>
+              <p class="text-muted">Colorado School of Mines</p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/Mike-2019-square.png"
+                alt=""
+              />
+              <h4><a href="https://mhicks.me/">Michael Hicks</a></h4>
+              <p class="text-muted">Amazon</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4>
+                <a href="https://sammkatcher.github.io/">Samantha Katcher</a>
+              </h4>
+              <p class="text-muted">Tufts University and MITRE</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4><a href="https://malk.in/">Nathan Malkin</a></h4>
+              <p class="text-muted">Postdoc Alum</p>
+              <p class="text-muted">New Jersey Inst. of Tech.</p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/nora-headshot.jpg"
+                alt=""
+              />
+              <h4><a href="https://noramcdonald.net">Nora McDonald</a></h4>
+              <p class="text-muted">George Mason University</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/mary-headshot.jpg"
+                alt=""
+              />
+              <h4>Mary Nicole Dugay Punzalan</h4>
+              <p class="text-muted">Undergrad Alum</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/elissa-headshot.JPG"
+                alt=""
+              />
+              <h4><a href="https://elissaredmiles.com/">Elissa Redmiles</a></h4>
+              <p class="text-muted">PhD Alum</p>
+              <p class="text-muted">Georgetown University</p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/sp2_shell.png"
+                alt=""
+              />
+              <h4>Rock Stevens</h4>
+              <p class="text-muted">PhD Alum</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/blase-headshot.jpg"
+                alt=""
+              />
+              <h4><a href="https://www.blaseur.com/">Blase Ur</a></h4>
+              <p class="text-muted">University of Chicago</p>
+              <p class="text-muted"></p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/votipka-headshot.jpg"
+                alt=""
+              />
+              <h4>
+                <a href="https://www.eecs.tufts.edu/~dvotipka/"
+                  >Daniel Votipka</a
+                >
+              </h4>
+              <p class="text-muted">PhD Alum</p>
+              <p class="text-muted">Tufts University</p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/noel-headshot-new.jpeg"
+                alt=""
+              />
+              <h4>
+                <a href="http://www.cs.umd.edu/~nwarford/">Noel Warford</a>
+              </h4>
+              <p class="text-muted">PhD Alum</p>
+              <p class="text-muted">Oberlin College</p>
+              <!-- <ul class="list-inline social-buttons">
+		
+		</ul> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <div class="large text-muted"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End external -->
+
+    <!-- Footer -->
+    <footer class="footer" style="background-color: ">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <span class="copyright">Copyright &copy; SP2 2024</span>
+          </div>
+          <!-- Social Media
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+		  
+            <li class="list-inline-item">
+			  
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+			  
+            </li>
+			
+            <li class="list-inline-item">
+			  
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+			  
+            </li>
+			
+            <li class="list-inline-item">
+			  
+              <a href="https://linkedin.com">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+			  
+            </li>
+			
+            <li class="list-inline-item">
+			  
+              <a href="https://github.com/raviriley">
+                <i class="fab fa-github"></i>
+              </a>
+			  
+            </li>
+			
+            <li class="list-inline-item">
+			  
+              <a href="https://instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+			  
+            </li>
+			
+          </ul>
+        </div> -->
+          <!-- Credits -->
+          <div class="col-md-6">
+            <span class="copyright">
+              Logo by Paige Orland. &nbsp; Made with
+
+              <a href="https://jekyllrb.com/">Jekyll</a>
+
+              <a href="https://github.com/raviriley/agency-jekyll-theme"
+                >Agency</a
+              >
+              . </span
+            ><br />
+          </div>
+          <!-- Legal -->
+          <div class="col-md-3">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="https://cs.umd.edu">UMD CS</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://umiacs.umd.edu">UMIACS</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://cyber.umd.edu">MC2</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <span class="copyright"> Made with
+       
+            <a href="https://jekyllrb.com/">Jekyll</a>
+       
+            <a href="https://github.com/raviriley/agency-jekyll-theme">Agency</a>
+       </span>
+       </div>
+      </div> -->
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="assets/js/agency.min.js"></script>
+  </body>
+</html>

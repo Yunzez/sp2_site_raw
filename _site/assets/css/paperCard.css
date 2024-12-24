@@ -1,0 +1,82 @@
+/* Card container */
+.card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 16px 0;
+    background-color: #fff;
+  }
+  
+  /* Right section with content */
+  .card .right {
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .text-wrap .text-link {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fed136;;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  .text-wrap .text-link:hover {
+    text-decoration: underline;
+  }
+  
+  .text-wrap .text-content {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .text-wrap .time {
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: #888;
+  }
+  
+  /* Button container */
+  .button-wrap {
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+  }
+  
+  .button-wrap .primary-cta {
+    padding: 8px 16px;
+    background-color: #fed136;;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .button-wrap .primary-cta:hover {
+    background-color: #fec503;
+  }
+  
+  .button-wrap .secondary-cta {
+    padding: 8px 16px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #555;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .button-wrap .secondary-cta:hover {
+    background-color: #e0e0e0;
+  }
+  
